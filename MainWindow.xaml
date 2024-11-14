@@ -1,0 +1,25 @@
+﻿<Window x:Class="FloorMaster.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FloorMaster"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" FontFamily="Segoi UI" FontSize="17" Icon="res/Мастер пол.ico">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Background="#F4E8D3"></TextBlock>
+        <TextBlock Grid.Row="2" Background="#F4E8D3"></TextBlock>
+        <TextBlock Text="FloorMaster" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40"></TextBlock>
+        <Image Source="res/Мастер пол.png" HorizontalAlignment="Left" VerticalAlignment="Center"></Image>
+
+        <Frame Name="MainFrame" Grid.Row="1" NavigationUIVisibility="Hidden"></Frame>
+        
+        
+        
+    </Grid>
+</Window>
